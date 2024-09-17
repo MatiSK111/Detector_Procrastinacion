@@ -10,7 +10,7 @@ class SeleccionadorDeCamaras:
     def __init__(self, root):
         self.root = root
         self.root.title("Seleccionar Cámara")
-        self.root.geometry("200x250")
+        self.root.geometry("200x200")
         self.root.config(bg='green')
         self.root.resizable(False, False)
 
